@@ -8,8 +8,8 @@ public class PasswordEncoderImpl {
     public static void main(String[] args) {
         PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
 
-        System.out.println(passwordEncoder.encode("estelle"));
+        System.out.println(passwordEncoder.encode("mary"));
 
-        System.out.println(passwordEncoder.encode("teacher"));
+
     }
 }
